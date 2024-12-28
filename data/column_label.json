@@ -1,0 +1,38 @@
+{
+    "Latitude":  "The geographical latitude of the plot, measured in degrees. This indicates the north-south position of the plot on the Earth's surface."
+,
+    "Longitude":  "The geographical longitude of the plot, measured in degrees. This indicates the east-west position of the plot."
+,
+    "Diameter_at_Breast_Height":  "The diameter of the tree measured at 1.3 meters (or breast height) above ground level, typically expressed in centimeters. This metric is crucial for assessing tree size and health."
+,
+    "Tree_Height":  "The total height of the tree from the base to the top, measured in meters. This measurement helps in understanding the growth patterns and ecological role of the tree."
+,
+    "Crown_Width_North_South":  "The width of the tree's crown measured in the north-south direction, typically in meters. This dimension can indicate the tree's overall health and competitive status in the ecosystem."
+,
+    "Crown_Width_East_West":  "The width of the tree's crown measured in the east-west direction, also typically in meters. Together with crown width in the north-south direction, it provides a complete view of the tree's canopy size."
+,
+    "Slope":  "The steepness of the terrain where the tree is located, measured in degrees. This can influence water drainage, soil erosion, and root development."
+,
+    "Elevation":  "The height of the plot above sea level, measured in meters. Elevation can affect temperature, precipitation, and overall ecosystem dynamics."
+,
+    "Temperature":  "The average temperature recorded at the plot, measured in degrees Celsius. This factor can influence tree growth, health, and species distribution."
+,
+    "Humidity":  "The average humidity at the plot, expressed as a percentage. Humidity levels can affect transpiration rates and overall tree health."
+,
+    "Soil_Total_Nitrogen":  "The concentration of total nitrogen in the soil, measured in grams per kilogram (g/kg). Nitrogen is essential for plant growth and development."
+,
+    "Soil_Total_Phosphorus":  "The concentration of total phosphorus in the soil, also measured in grams per kilogram (g/kg). Phosphorus is crucial for energy transfer and photosynthesis."
+,
+    "Soil_Available_Phosphorus":  "The amount of phosphorus readily available to plants in the soil, measured in grams per kilogram (g/kg). This metric helps assess nutrient availability."
+,
+    "Soil_Available_Nitrogen":  "The amount of nitrogen available for plant uptake in the soil, measured in grams per kilogram (g/kg). This reflects soil fertility."
+,
+    "Menhinick_Index":  "A diversity index that reflects species richness in the area. Higher values indicate greater biodiversity."
+,
+    "Gleason_Index":  "Another diversity index that accounts for the abundance and richness of species within the community."
+,
+    "Disturbance_Level":  "A categorical variable indicating the level of ecological disturbance in the area (0: low, 1: medium, 2: high). This can impact the health and stability of the ecosystem."
+,
+    "Fire_Risk_Index":  "A measure of the likelihood of fire occurrence based on environmental conditions, scored between 0 and 1. This can inform management strategies for fire-prone areas."
+
+  }

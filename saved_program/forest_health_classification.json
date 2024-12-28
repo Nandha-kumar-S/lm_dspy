@@ -1,0 +1,109 @@
+{
+  "cot": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "parameters": "latitude is 44, longitude is 46, diameter_at_breast_height is -86, tree_height is 16, crown_width_north_south is 13, crown_width_east_west is 7, slope is 7, elevation is 7, temperature is 537, humidity is 30, soil_total_nitrogen is 41, soil_total_phosphorus is 1, soil_available_phosphorus is 0, soil_available_nitrogen is 0, menhinick_index is 0, gleason_index is 1, disturbance_level is 4, fire_risk_index is 1",
+        "reasoning": "The forest is classified as unhealthy, as indicated by its relatively low tree height, narrow crown, and high fire risk index.",
+        "answer": "unhealthy"
+      },
+      {
+        "parameters": "latitude is 386, longitude is 42, diameter_at_breast_height is -107, tree_height is 60, crown_width_north_south is 27, crown_width_east_west is 6, slope is 6, elevation is 28, temperature is 1044, humidity is 22, soil_total_nitrogen is 90, soil_total_phosphorus is 0, soil_available_phosphorus is 0, soil_available_nitrogen is 0, menhinick_index is 0, gleason_index is 3, disturbance_level is 4, fire_risk_index is 0",
+        "answer": "very healthy"
+      },
+      {
+        "parameters": "latitude is 770, longitude is 43, diameter_at_breast_height is -102, tree_height is 70, crown_width_north_south is 5, crown_width_east_west is 4, slope is 9, elevation is 15, temperature is 2185, humidity is 11, soil_total_nitrogen is 34, soil_total_phosphorus is 1, soil_available_phosphorus is 0, soil_available_nitrogen is 0, menhinick_index is 0, gleason_index is 1, disturbance_level is 2, fire_risk_index is 1",
+        "answer": "sub-healthy"
+      },
+      {
+        "parameters": "latitude is 468, longitude is 45, diameter_at_breast_height is -102, tree_height is 9, crown_width_north_south is 21, crown_width_east_west is 2, slope is 9, elevation is 3, temperature is 1987, humidity is 23, soil_total_nitrogen is 93, soil_total_phosphorus is 0, soil_available_phosphorus is 0, soil_available_nitrogen is 0, menhinick_index is 0, gleason_index is 3, disturbance_level is 4, fire_risk_index is 0",
+        "answer": "very healthy"
+      },
+      {
+        "parameters": "latitude is 836, longitude is 27, diameter_at_breast_height is -84, tree_height is 92, crown_width_north_south is 10, crown_width_east_west is 2, slope is 6, elevation is 7, temperature is 1421, humidity is 6, soil_total_nitrogen is 21, soil_total_phosphorus is 1, soil_available_phosphorus is 0, soil_available_nitrogen is 0, menhinick_index is 0, gleason_index is 2, disturbance_level is 3, fire_risk_index is 0",
+        "answer": "healthy"
+      },
+      {
+        "parameters": "latitude is 18, longitude is 31, diameter_at_breast_height is -90, tree_height is 90, crown_width_north_south is 13, crown_width_east_west is 9, slope is 4, elevation is 25, temperature is 328, humidity is 27, soil_total_nitrogen is 85, soil_total_phosphorus is 0, soil_available_phosphorus is 0, soil_available_nitrogen is 0, menhinick_index is 0, gleason_index is 1, disturbance_level is 4, fire_risk_index is 1",
+        "answer": "healthy"
+      },
+      {
+        "parameters": "latitude is 152, longitude is 20, diameter_at_breast_height is -71, tree_height is 22, crown_width_north_south is 9, crown_width_east_west is 1, slope is 3, elevation is 24, temperature is 401, humidity is 34, soil_total_nitrogen is 60, soil_total_phosphorus is 0, soil_available_phosphorus is 0, soil_available_nitrogen is 0, menhinick_index is 0, gleason_index is 3, disturbance_level is 4, fire_risk_index is 1",
+        "answer": "sub-healthy"
+      },
+      {
+        "parameters": "latitude is 555, longitude is 45, diameter_at_breast_height is -114, tree_height is 12, crown_width_north_south is 6, crown_width_east_west is 5, slope is 9, elevation is 34, temperature is 1929, humidity is 19, soil_total_nitrogen is 72, soil_total_phosphorus is 1, soil_available_phosphorus is 0, soil_available_nitrogen is 0, menhinick_index is 0, gleason_index is 1, disturbance_level is 2, fire_risk_index is 1",
+        "answer": "unhealthy"
+      },
+      {
+        "parameters": "latitude is 641, longitude is 11, diameter_at_breast_height is -92, tree_height is 33, crown_width_north_south is 9, crown_width_east_west is 10, slope is 6, elevation is 34, temperature is 1405, humidity is 34, soil_total_nitrogen is 59, soil_total_phosphorus is 1, soil_available_phosphorus is 0, soil_available_nitrogen is 0, menhinick_index is 0, gleason_index is 2, disturbance_level is 3, fire_risk_index is 1",
+        "answer": "sub-healthy"
+      },
+      {
+        "parameters": "latitude is 260, longitude is 14, diameter_at_breast_height is -89, tree_height is 46, crown_width_north_south is 27, crown_width_east_west is 5, slope is 9, elevation is 10, temperature is 1389, humidity is 33, soil_total_nitrogen is 30, soil_total_phosphorus is 0, soil_available_phosphorus is 0, soil_available_nitrogen is 0, menhinick_index is 0, gleason_index is 1, disturbance_level is 4, fire_risk_index is 1",
+        "answer": "very healthy"
+      },
+      {
+        "parameters": "latitude is 949, longitude is 45, diameter_at_breast_height is -107, tree_height is 40, crown_width_north_south is 7, crown_width_east_west is 8, slope is 7, elevation is 40, temperature is 2803, humidity is 14, soil_total_nitrogen is 61, soil_total_phosphorus is 0, soil_available_phosphorus is 0, soil_available_nitrogen is 0, menhinick_index is 0, gleason_index is 2, disturbance_level is 3, fire_risk_index is 0",
+        "answer": "healthy"
+      },
+      {
+        "parameters": "latitude is 538, longitude is 20, diameter_at_breast_height is -82, tree_height is 19, crown_width_north_south is 12, crown_width_east_west is 7, slope is 9, elevation is 40, temperature is 1118, humidity is 36, soil_total_nitrogen is 82, soil_total_phosphorus is 0, soil_available_phosphorus is 0, soil_available_nitrogen is 0, menhinick_index is 0, gleason_index is 1, disturbance_level is 4, fire_risk_index is 0",
+        "answer": "healthy"
+      },
+      {
+        "parameters": "latitude is 878, longitude is 36, diameter_at_breast_height is -94, tree_height is 24, crown_width_north_south is 27, crown_width_east_west is 7, slope is 7, elevation is 9, temperature is 1222, humidity is 17, soil_total_nitrogen is 50, soil_total_phosphorus is 1, soil_available_phosphorus is 0, soil_available_nitrogen is 0, menhinick_index is 0, gleason_index is 3, disturbance_level is 1, fire_risk_index is 0",
+        "answer": "unhealthy"
+      },
+      {
+        "parameters": "latitude is 74, longitude is 43, diameter_at_breast_height is -129, tree_height is 88, crown_width_north_south is 10, crown_width_east_west is 6, slope is 2, elevation is 21, temperature is 316, humidity is 29, soil_total_nitrogen is 61, soil_total_phosphorus is 0, soil_available_phosphorus is 0, soil_available_nitrogen is 0, menhinick_index is 0, gleason_index is 3, disturbance_level is 1, fire_risk_index is 1",
+        "answer": "unhealthy"
+      },
+      {
+        "parameters": "latitude is 881, longitude is 19, diameter_at_breast_height is -82, tree_height is 36, crown_width_north_south is 16, crown_width_east_west is 3, slope is 3, elevation is 35, temperature is 257, humidity is 25, soil_total_nitrogen is 54, soil_total_phosphorus is 0, soil_available_phosphorus is 0, soil_available_nitrogen is 0, menhinick_index is 0, gleason_index is 3, disturbance_level is 1, fire_risk_index is 1",
+        "answer": "unhealthy"
+      },
+      {
+        "parameters": "latitude is 81, longitude is 45, diameter_at_breast_height is -75, tree_height is 8, crown_width_north_south is 23, crown_width_east_west is 7, slope is 2, elevation is 20, temperature is 1073, humidity is 16, soil_total_nitrogen is 47, soil_total_phosphorus is 1, soil_available_phosphorus is 0, soil_available_nitrogen is 0, menhinick_index is 0, gleason_index is 1, disturbance_level is 4, fire_risk_index is 1",
+        "answer": "very healthy"
+      }
+    ],
+    "signature": {
+      "instructions": "Classify the health status of the forest, based on the given parameters. Also use column description for reference.\nOutput should be in lowercase.",
+      "fields": [
+        {
+          "prefix": "Parameters:",
+          "description": "comprehensive collection of ecological and environmental measurements focused on tree characteristics and site conditions."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "labels matching the health status of forest."
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "Classify the health status of the forest, based on the given parameters. Also use column description for reference.\nOutput should be in lowercase.",
+      "fields": [
+        {
+          "prefix": "Parameters:",
+          "description": "comprehensive collection of ecological and environmental measurements focused on tree characteristics and site conditions."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "labels matching the health status of forest."
+        }
+      ]
+    }
+  }
+}

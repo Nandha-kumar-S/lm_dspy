@@ -1,0 +1,135 @@
+{
+  "cot": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "consider a rocket in free space having two engines with identical isp, connected to a single propellant system. recall that the relationship between specific impulse and exhaust velocity is  vexhaust  = go * isp.\nif one engine fails, what is the impact on the total  \u03b4v  that can be obtained from the system?",
+        "choices": "['\u03b4v will double', '\u03b4v will be cut in half', '\u03b4v will stay the same']",
+        "reasoning": "The total delta-v that can be obtained from the system is directly proportional to the total mass of propellant burned. Since the propellant system is shared between the two engines, the total mass of propellant burned is the same regardless of which engine fails. The only difference is that the remaining engine will burn the propellant alone, whereas it would have burned half of the propellant with the other engine. \nIn terms of specific impulse, the relationship between specific impulse and exhaust velocity is vexhaust  = go * isp. Therefore, if one engine fails, the total delta-v obtained from the system will remain the same.",
+        "answer": "\u03b4v will stay the same"
+      },
+      {
+        "augmented": true,
+        "question": "what is the primary driver to choose between a closed-loop or an open-loop eclss?",
+        "choices": "['spacecraft size', 'crew size', 'mission duration', 'launcher reliability']",
+        "reasoning": "The primary driver to choose between a closed-loop or an open-loop ECLSS (Environmental Control and Life Support System) is the mission duration. A closed-loop ECLSS is typically used for longer-duration missions, where the system can recycle and reuse resources, such as air, water, and waste. An open-loop ECLSS, on the other hand, is used for shorter-duration missions, where the system relies on resupply from Earth or other sources.",
+        "answer": "mission duration"
+      },
+      {
+        "question": "true or false: the latitude of sunpots during a solar cycle stays uniform and constant, regardless of the sun activity",
+        "choices": "['true', 'false']",
+        "answer": "false"
+      },
+      {
+        "question": "a spacecraft is on a free trajectory in the vicinity of the earth. from which statement can it be deduced that this spacecraft has sufficient energy to leave earth's gravitational well (i.e. it is not on orbit around the earth)? assumption: etot refers to the total energy of the spacecraft.",
+        "choices": "['etot >= 0', 'etot < 0', 'etot is close to + infinity', 'etot is close to - infinity']",
+        "answer": "etot >= 0"
+      },
+      {
+        "question": "when did the iss start to be assembled?",
+        "choices": "['2001', '1995', '1998', '2011']",
+        "answer": "1998"
+      },
+      {
+        "question": "what is the strength of the earth\u2019s acceleration in leo?",
+        "choices": "['same acceleration than on the surface of the earth', 'no acceleration, that\u2019s why you can float in space', '90% of the acceleration on the surface of the earth', '10% of the acceleration on the surface of the earth']",
+        "answer": "90% of the acceleration on the surface of the earth"
+      },
+      {
+        "question": "telecommunications satellites are often on geostationary orbits (geo) at an altitude of 35786 km above the surface of the earth. what is the earth escape velocity from that orbit? (answer in km\/s)",
+        "choices": "['4.7', '5.0', '5.3', '5.6', '5.9']",
+        "answer": "4.7"
+      },
+      {
+        "question": "an artificial earth satellite is in an elliptical orbit with a perigee altitude of hp = 250 km and an apogee altitude of ha = 800 km. what is its orbital period expressed in minutes?",
+        "choices": "['18.0', '89.5', '95.0', '100.9']",
+        "answer": "95.0"
+      },
+      {
+        "question": "which is a major contribution to the antenna pointing error on-board satellite?",
+        "choices": "['thermal distortions', 'atmospheric residual drag', 'fixed misalignment']",
+        "answer": "thermal distortions"
+      },
+      {
+        "question": "how do you usually compute a risk score in aerospace risk management?",
+        "choices": "['division of severity by probability of occurrence', 'summation of individual risk severity', 'average probability of occurrence of all risks', 'multiplication of probability of occurrence by risk']",
+        "answer": "multiplication of probability of occurrence by risk"
+      },
+      {
+        "question": "which of the following statements are true?",
+        "choices": "['lvlh is a coordinate system', 'lvlh is a french luxury clothing brand', 'lvlh is an inertial coordinate system', 'in the lvlh system, the z-axis points towards the center of the earth', 'lvlh stands for local vertical, local horizontal.']",
+        "answer": "lvlh is a coordinate system"
+      },
+      {
+        "question": "which type of satellite sensor should you select for you aocs if you need an accuracy of 0.1 deg and have string mass constraint?",
+        "choices": "['sun sensor', 'star sensor', 'magnetometer']",
+        "answer": "sun sensor"
+      },
+      {
+        "question": "which of the following thermal dissipation mechanism is usually not accounted for for satellite thermal balance?",
+        "choices": "['conduction', 'radiation', 'convection']",
+        "answer": "convection"
+      },
+      {
+        "question": "when applying the idea rocket equation, which components usually comprise the the rocket final mass ?",
+        "choices": "['payload', 'propellant', 'structure']",
+        "answer": "payload"
+      },
+      {
+        "question": "which of the following best describe a spherical aberration?",
+        "choices": "[\"when a sharp image is formed on a focal surface which isn't flat\", 'when light from the periphery of a spherical lens or mirror is focused nearer the element than light from the center', 'when an otherwise sharp image is distorted in shape, such as when straight light on the surface being viewed appear curved on the focal plane', 'dispersion of the light due to the refractive index of a lens being a function of the wavelength']",
+        "answer": "when light from the periphery of a spherical lens or mirror is focused nearer the element than light from the center"
+      },
+      {
+        "question": "how do satellite communication missions usually cover irregular areas such as the united states, without providing bandwidth to unwanted areas (oceans, prohibited areas)?",
+        "choices": "['increasing satellite altitude', 'utilising higher frequency bands', 'encrypting the signal', 'using shaped beam reflector antennas']",
+        "answer": "using shaped beam reflector antennas"
+      }
+    ],
+    "signature": {
+      "instructions": "Answer the question using astronautics knowledge",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "question based on astronautics"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "list of multiple choices for the question"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "should best a matching answer from choices"
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "Answer the question using astronautics knowledge",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "question based on astronautics"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "list of multiple choices for the question"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "should best a matching answer from choices"
+        }
+      ]
+    }
+  }
+}

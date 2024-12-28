@@ -1,0 +1,133 @@
+{
+  "cot": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "what are the van allen belts?",
+        "choices": "['the region between 90 and 100 km altitude', 'low radiation regions', 'much used orbits for telecommunication', 'radiation belts']",
+        "reasoning": "The Van Allen Radiation Belts are regions around the Earth filled with high-energy particles, primarily protons and electrons, trapped by the Earth's magnetic field. These particles are accelerated by solar winds and cosmic rays, and are confined within the belts by the magnetic field's curvature.",
+        "answer": "radiation belts"
+      },
+      {
+        "question": "which of the following is the primary factor determine the voltage of a solar array?",
+        "choices": "['the temperature of the environment where the solar array is in', 'the solar cell thickness', 'the number of cells connected in series to form a string', 'the mounting structure of the solar cell']",
+        "answer": "the number of cells connected in series to form a string"
+      },
+      {
+        "question": "which is a major contribution to the antenna pointing error on-board satellite?",
+        "choices": "['thermal distortions', 'atmospheric residual drag', 'fixed misalignment']",
+        "answer": "thermal distortions"
+      },
+      {
+        "question": "a spacecraft is on a free trajectory in the vicinity of the earth. from which statement can it be deduced that this spacecraft has sufficient energy to leave earth's gravitational well (i.e. it is not on orbit around the earth)? assumption: etot refers to the total energy of the spacecraft.",
+        "choices": "['etot >= 0', 'etot < 0', 'etot is close to + infinity', 'etot is close to - infinity']",
+        "answer": "etot >= 0"
+      },
+      {
+        "question": "what is the shape of a circular orbit, for the chaser, in a rendezvous profile diagram? (assuming the target is higher than the chaser).",
+        "choices": "['a point', 'a periodic wavy and pointy curve', 'a line', 'a sinusoidal', 'a cycloid']",
+        "answer": "a line"
+      },
+      {
+        "question": "what is the reference point of the rendezvous profile diagram?",
+        "choices": "['the chaser', 'the target', 'the center of the earth', 'the control center']",
+        "answer": "the target"
+      },
+      {
+        "question": "assuming there are 3 sources of independent errors on the knowledge of the volume of a given reservoir. these independent errors are 0.1 l, 0.2 l and 0.5 l. which is the combined errors of these 3 sources of errors?",
+        "choices": "['0.30 l', '0.50 l', '0.55 l', '0.80 l']",
+        "answer": "0.55 l"
+      },
+      {
+        "question": "the comet 67p\/churyumov-gerasimenko has an escape velocity close to 1 m\/s. what would be sufficient in the following to escape its surface and never come back ?",
+        "choices": "['you, by jumping the equivalent of 50 cm on earth.', 'a tennis ball hit by roger federer.', 'a bullet shot by a pistol.', 'none of the above.']",
+        "answer": "you, by jumping the equivalent of 50 cm on earth."
+      },
+      {
+        "question": "what is the typical range of specific impulse for liquid monopropellant systems?",
+        "choices": "['45 - 75s', '200 - 235s', '274 - 467s', '500 - 3000s']",
+        "answer": "200 - 235s"
+      },
+      {
+        "question": "which of the following reflective optical system is analogous to the tele-optic refractive optical system?",
+        "choices": "['lens doublet', 'schmidt', 'cassegrain', 'tma (three-mirror anastigmatic)']",
+        "answer": "cassegrain"
+      },
+      {
+        "question": "an interplanetary probe is in transit towards an inner planet, very close to the arrival planet. how is the velocity of the planet with respect to the velocity of the probe?",
+        "choices": "['faster', 'identifical', 'slower']",
+        "answer": "slower"
+      },
+      {
+        "question": "consider a rocket carrying 100,000 kg of propellant, 10,000 kg of structure and 5,000 kg of payload. using the ideal rocket equation, and assuming a specific impulse of 450s, what would be value of the delta v in m\/s that this rocket would be able to produce if all the propellant is consumed in one stage?",
+        "choices": "['8991 m\/s', '9991 m\/s', '10991 m\/s', '11991 m\/s', '12991 m\/s']",
+        "answer": "8991 m\/s"
+      },
+      {
+        "question": "true or false: the latitude of sunpots during a solar cycle stays uniform and constant, regardless of the sun activity",
+        "choices": "['true', 'false']",
+        "answer": "false"
+      },
+      {
+        "question": "what should you do first when a non-confirmance is detected according to the ecss?",
+        "choices": "['implement corrective and preventive actions', 'call the supplier and fire them', 'issue a non-conformance test plan (nctp)', 'organize an internal non-conformance review board (nrb)', 'issue an internal non-conformance report (ncr)', 'notify the customer and call out for a customer non-conformance review board (nrb)']",
+        "answer": "issue an internal non-conformance report (ncr)"
+      },
+      {
+        "question": "which satellite band in the electromagnetic spectrum correspond to the highest frequencies?",
+        "choices": "['c-band', 'v-band', 'ka-band', 'q-band']",
+        "answer": "v-band"
+      },
+      {
+        "question": "some of the solar flux is reflected off the surface of the earth. the fraction of sunlight reflected is given by the albedo. if the albedo increases, how will the amount of reflected light change?",
+        "choices": "['it increases', 'it descreases', 'it stays the same', 'impossible to say, we need more information to answer']",
+        "answer": "it increases"
+      }
+    ],
+    "signature": {
+      "instructions": "Answer the question using astronautics knowledge",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "question based on astronautics"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "list of multiple choices for the question"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "should best a matching answer from choices"
+        }
+      ]
+    },
+    "extended_signature": {
+      "instructions": "Answer the question using astronautics knowledge",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "question based on astronautics"
+        },
+        {
+          "prefix": "Choices:",
+          "description": "list of multiple choices for the question"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "should best a matching answer from choices"
+        }
+      ]
+    }
+  }
+}

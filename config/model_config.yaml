@@ -1,0 +1,4 @@
+model_name: 'openai/unsloth/Llama-3.2-3B-Instruct'
+api_base: "http://0.0.0.0:8000/v1"
+api_key: "abc123"
+hf_token: ''

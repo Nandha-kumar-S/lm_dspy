@@ -1,0 +1,35 @@
+Dspy
+1. Programming
+    1. Signature
+        a. Inline
+        b. Class based
+    2. Modules
+        a. Predict
+        b. ChainOfThought
+        c. ReAct
+        d. RAG and so..
+2. Evaluation
+    1. Data handling
+        a. Examples
+    2. Metrics
+        a. Accuracy
+        b. Exact match
+        c. F1 score
+3. Optimizers
+    1. Automatic Few-Shot Learning
+        a. LabeledFewShot
+        b. BootstrapFewShot
+        c. BootstrapFewShotRandomSearch
+        d. KNNFewShot
+    2. Automatic Instruction Optimization
+        a. COPRO
+        b. MIPROv2
+    3. Automatic Finetuning
+        a. BootstrapFinetune
+
+    
+
+
+
+   
+        
